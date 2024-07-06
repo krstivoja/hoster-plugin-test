@@ -54,4 +54,4 @@ jobs:
         with:
           files: hoster-plugin-test.zip
         env:
-          GITHUB_TOKEN: ${{ secrets.YOUR_GITHUB_TOKEN }} # Ensure this token has the right permissions and change secret from GITHUB_TOKEN to your name
+          GITHUB_TOKEN: ${{ secrets.WPSCIPTSTOKEN }} # Ensure this token has the right permissions and change secret from GITHUB_TOKEN to your name
